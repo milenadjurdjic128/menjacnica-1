@@ -12,5 +12,6 @@ public interface MenjacnicaInterface {
 	
 	public void ucitajIzFajla(String putanja);
 	public void sacuvajUFajl(String putanja);
+	public void prikaziSveValute();
 
 }

@@ -42,11 +42,6 @@ public class Menjacnica implements MenjacnicaInterface{
 		SOSacuvajUFajl.sacuvajUFajl(putanja, kursnaLista);
 	}
 
-	@Override
-	public void prikaziSveValute() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	
 

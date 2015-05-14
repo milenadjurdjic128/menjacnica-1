@@ -248,8 +248,8 @@ public class MenjacnicaGUI extends JFrame {
 	
 
 	
-	protected void prikaziSveValute(LinkedList<Valuta> kursnaLista) {
-		list.setListData(kursnaLista.toArray());
+	protected void prikaziSveValute(LinkedList<Valuta> valuta) {
+		list.setListData(sistem.vratiKursnuListu().toArray());
 	}
 	
 	
